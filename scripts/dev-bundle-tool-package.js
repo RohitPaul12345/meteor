@@ -4,7 +4,7 @@
 // We put this in a JS file so that it can contain comments. It is processed
 // into a package.json file by generate-dev-bundle.sh.
 
-var packageJson = {
+let packageJson = {
   name: "meteor-dev-bundle-tool",
   private: true,
   dependencies: {
